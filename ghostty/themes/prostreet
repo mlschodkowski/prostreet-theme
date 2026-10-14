@@ -1,0 +1,40 @@
+# Prostreet: Ghostty theme inspired by the NFS ProStreet graffiti wallpapers.
+# Neutral asphalt, chalk white, neon lime. ANSI blue/magenta/cyan are muted greys to stay on palette.
+background = #161819
+foreground = #d9dbd6
+selection-background = #30353a
+selection-foreground = #f4f5f0
+cursor-color = #b8f02c
+cursor-text = #161819
+
+#: black
+palette = 0=#161819
+palette = 8=#4a4f52
+
+#: red
+palette = 1=#ff4f3d
+palette = 9=#ff7a66
+
+#: green
+palette = 2=#8fb339
+palette = 10=#b8f02c
+
+#: yellow
+palette = 3=#f0a040
+palette = 11=#e8d36a
+
+#: blue
+palette = 4=#7d8a92
+palette = 12=#a3b0b8
+
+#: magenta
+palette = 5=#9a8f94
+palette = 13=#bdb2b7
+
+#: cyan
+palette = 6=#8a9a8e
+palette = 14=#b0c0b4
+
+#: white
+palette = 7=#d9dbd6
+palette = 15=#f4f5f0

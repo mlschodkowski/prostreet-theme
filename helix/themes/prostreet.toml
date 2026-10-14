@@ -1,0 +1,120 @@
+# Prostreet: Helix theme inspired by the NFS ProStreet graffiti wallpapers.
+# Four hues: neutral chalk/grey, steel blue, lime (the only accent), red (diagnostics only).
+# Italics only on comments; no bold in syntax.
+attribute = "ash"
+comment = { fg = "comment", modifiers = ["italic"] }
+constant = "steel_light"
+"constant.builtin" = "steel_light"
+"constant.numeric" = "steel_light"
+"constant.character.escape" = "steel_light"
+constructor = "fg_bright"
+function = "steel"
+"function.builtin" = "steel"
+"function.macro" = "ash"
+keyword = "lime"
+"keyword.directive" = "lime"
+label = "lime"
+namespace = "fg"
+operator = "muted"
+punctuation = "muted"
+"punctuation.delimiter" = "muted"
+special = "steel_light"
+string = "brick"
+"string.escape" = "steel"
+"string.regexp" = "steel"
+"string.special" = "steel"
+tag = "fg_bright"
+type = "fg_bright"
+"type.builtin" = "fg_bright"
+variable = "fg"
+"variable.builtin" = "ash"
+"variable.parameter" = "fg"
+"variable.other.member" = "fg"
+"markup.bold" = { fg = "fg_bright", modifiers = ["bold"] }
+"markup.italic" = { fg = "fg", modifiers = ["italic"] }
+"markup.heading" = { fg = "fg_bright", modifiers = ["bold"] }
+"markup.link.url" = { fg = "steel", modifiers = ["underlined"] }
+"markup.link.text" = "steel"
+"markup.list" = "muted"
+"markup.quote" = "muted"
+"markup.raw" = "steel_light"
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+
+error = "red"
+warning = "red_dim"
+info = "steel"
+hint = "muted"
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "red_dim", style = "curl" } }
+"diagnostic.info" = { underline = { color = "steel", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "muted", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+"diff.plus" = "lime_dim"
+"diff.minus" = "red"
+"diff.delta" = "steel"
+
+"ui.background" = { fg = "fg", bg = "bg" }
+"ui.background.separator" = { fg = "border" }
+"ui.text" = { fg = "fg", bg = "bg" }
+"ui.text.focus" = { fg = "fg_bright", bg = "bg" }
+"ui.text.inactive" = "comment"
+"ui.text.info" = { fg = "fg", bg = "bg_float" }
+"ui.virtual.ruler" = { bg = "bg_alt" }
+"ui.virtual.whitespace" = "nontext"
+"ui.virtual.indent-guide" = "nontext"
+"ui.virtual.inlay-hint" = "comment"
+"ui.linenr" = "linenr"
+"ui.linenr.selected" = { fg = "lime", bg = "bg_cursorline" }
+"ui.cursor" = { fg = "bg", bg = "fg_bright" }
+"ui.cursor.primary" = { fg = "bg", bg = "lime" }
+"ui.cursor.match" = { fg = "fg_bright", modifiers = ["underlined"] }
+"ui.cursor.select" = { fg = "bg", bg = "steel" }
+"ui.selection" = { bg = "bg_visual" }
+"ui.selection.primary" = { bg = "bg_visual" }
+"ui.cursorline.primary" = { bg = "bg_cursorline" }
+"ui.cursorline.secondary" = { bg = "bg_cursorline" }
+"ui.highlight" = { bg = "bg_visual" }
+"ui.highlight.frameline" = { bg = "bg_visual" }
+"ui.help" = { fg = "fg", bg = "bg_float" }
+"ui.menu" = { fg = "fg", bg = "bg_float" }
+"ui.menu.selected" = { fg = "fg_bright", bg = "bg_visual" }
+"ui.menu.scroll" = { fg = "muted", bg = "bg_float" }
+"ui.popup" = { fg = "fg", bg = "bg_float" }
+"ui.popup.info" = { fg = "fg", bg = "bg_float" }
+"ui.window" = { fg = "border" }
+"ui.bufferline" = { fg = "muted", bg = "bg" }
+"ui.bufferline.active" = { fg = "fg_bright", bg = "bg_alt" }
+"ui.bufferline.background" = { bg = "bg" }
+"ui.statusline" = { fg = "fg", bg = "bg_alt" }
+"ui.statusline.inactive" = { fg = "muted", bg = "bg" }
+"ui.statusline.normal" = { fg = "bg", bg = "lime" }
+"ui.statusline.insert" = { fg = "bg", bg = "fg_bright" }
+"ui.statusline.select" = { fg = "bg", bg = "steel" }
+"ui.debug.active" = { fg = "red" }
+"ui.debug.breakpoint" = "red"
+"ui.gutter" = { bg = "bg" }
+"ui.gutter.selected" = { bg = "bg_cursorline" }
+
+[palette]
+bg = "#161819"
+bg_alt = "#1d1f21"
+bg_float = "#25282a"
+bg_cursorline = "#1b1d1f"
+bg_visual = "#30353a"
+border = "#383c3f"
+nontext = "#2a2d2f"
+linenr = "#4a4f52"
+comment = "#70767a"
+muted = "#92989b"
+ash = "#aab0b3"
+fg = "#d9dbd6"
+fg_bright = "#f4f5f0"
+steel = "#7fb1c4"
+steel_light = "#a6c8d6"
+lime = "#b8f02c"
+lime_dim = "#8fb339"
+red = "#ff4f3d"
+red_dim = "#d9806a"
+brick = "#d9604f"
